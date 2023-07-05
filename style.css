@@ -1,0 +1,18 @@
+ul{
+  list-style: none;
+}
+.remove{
+  visibility: hidden;
+  cursor: pointer;
+  transition: 0.2s all;
+  font-size: 25px;
+  color: red;
+}
+
+.main-body ul li:hover {
+  padding-left: 20px;
+}
+
+.main-body ul li:hover .remove{
+  visibility: visible;
+}
